@@ -34,7 +34,7 @@ Run `cargo run --release`
 |  slice_loop_safe_good  |  0.288  |
 | slice_loop_unsafe_good |  0.126  |
 
-`i7-4790 3.60GHz` + `Windows 10 17763` + `rustc 1.31.0-nightly (2bd5993ca 2018-10-02) x86_64-pc-windows-msvc` + `Thin LTO` - `incremental` - `overflow-checks`
+`i7-4790 3.60GHz` + `Windows 10 17763` + `rustc 1.31.0-nightly (2bd5993ca 2018-10-02) x86_64-pc-windows-msvc` + `Thin LTO` - `overflow-checks`
 
 |          Test          | Time(s) |
 |------------------------|---------|
@@ -45,7 +45,7 @@ Run `cargo run --release`
 |  slice_loop_safe_good  |  0.288  |
 | slice_loop_unsafe_good |  0.126  |
 
-`i7-4790 3.60GHz` + `Windows 10 17763` + `rustc 1.31.0-nightly (2bd5993ca 2018-10-02) x86_64-pc-windows-msvc` + `Thin LTO` - `incremental` - `overflow-checks` + `target-cpu=native`
+`i7-4790 3.60GHz` + `Windows 10 17763` + `rustc 1.31.0-nightly (2bd5993ca 2018-10-02) x86_64-pc-windows-msvc` + `Thin LTO` - `overflow-checks` + `target-cpu=native`
 
 |          Test          | Time(s) |
 |------------------------|---------|
@@ -67,7 +67,7 @@ Run `cargo run --release`
 |  slice_loop_safe_good  |  0.358  |
 | slice_loop_unsafe_good |  0.189  |
 
-`i7-4790 3.60GHz` + `Windows 10 17763` + `rustc 1.31.0-nightly (2bd5993ca 2018-10-02) x86_64-pc-windows-gnu` + `Thin LTO` - `incremental` - `overflow-checks` + `target-cpu=native`
+`i7-4790 3.60GHz` + `Windows 10 17763` + `rustc 1.31.0-nightly (2bd5993ca 2018-10-02) x86_64-pc-windows-gnu` + `Thin LTO` - `overflow-checks` + `target-cpu=native`
 
 |          Test          | Time(s) |
 |------------------------|---------|
@@ -78,7 +78,7 @@ Run `cargo run --release`
 |  slice_loop_safe_good  |  0.306  |
 | slice_loop_unsafe_good |  0.178  |
 
-`i7-4790 3.60GHz` + `Windows 10 17763` + `rustc 1.31.0-nightly (2bd5993ca 2018-10-02) x86_64-pc-windows-gnu` + `Thin LTO` - `incremental` - `overflow-checks`
+`i7-4790 3.60GHz` + `Windows 10 17763` + `rustc 1.31.0-nightly (2bd5993ca 2018-10-02) x86_64-pc-windows-gnu` + `Thin LTO` - `overflow-checks`
 
 |          Test          | Time(s) |
 |------------------------|---------|
