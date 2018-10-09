@@ -15,3 +15,5 @@ Run `cargo run --release`
 |   slice_loop_safe_bad  |  0.519  |
 |  slice_loop_safe_good  |  0.298  |
 | slice_loop_unsafe_good |  0.133  |
+|     cpp_method_bad     |  0.432  |
+|    cpp_method_good     |  0.236  |
