@@ -45,8 +45,8 @@ fn fn_slice_method_3_2(x: &[f32], out: &mut [f32]) {
 
 	for h_i in 0..n_x / 2 {
 		let i = h_i * 2;
-		out[i] = x[i] * 123.0;
-		out[i + 1] = x[i + 1] * 456.0;
+		out[i] = x[i + 1] * 123.0;
+		out[i + 1] = x[i] * 456.0;
 	}
 }
 
@@ -59,8 +59,8 @@ fn fn_slice_method_3_3(x: &[f32], out: &mut [f32]) {
 
 		for h_i in 0..n_x / 2 {
 			let i = h_i * 2;
-			*out.get_unchecked_mut(i) = *x.get_unchecked(i) * 123.0;
-			*out.get_unchecked_mut(i + 1) = *x.get_unchecked(i + 1) * 456.0;
+			*out.get_unchecked_mut(i) = *x.get_unchecked(i + 1) * 123.0;
+			*out.get_unchecked_mut(i + 1) = *x.get_unchecked(i) * 456.0;
 		}
 	}
 }

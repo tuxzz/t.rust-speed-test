@@ -15,8 +15,8 @@ void method_loop_1(const float * __restrict x, const size_t n_x, float * __restr
 void method_loop_2(const float * __restrict x, const size_t n_x, float * __restrict out) {
   for (size_t h_i = 0; h_i < n_x / 2; ++h_i) {
     auto i = h_i * 2;
-    out[i] = x[i] * 123.0f;
-    out[i + 1] = x[i + 1] * 456.0f;
+    out[i] = x[i + 1] * 123.0f;
+    out[i + 1] = x[i] * 456.0f;
   }
 }
 
